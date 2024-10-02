@@ -29,7 +29,7 @@ export default function Perfil() {
           <FaFacebookF />
         </a>
         <a
-          href="linkedin.com/in/santiago-navarro-calderón-b58b3b2ba"
+          href="https://www.linkedin.com/in/santiago-navarro-calderón-b58b3b2ba"
           aria-label="LinkedIn"
           target="_blank"
           rel="noopener noreferrer"
