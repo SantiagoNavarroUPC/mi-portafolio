@@ -1,5 +1,7 @@
+/* Importación de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
+/* Variables de color */
 :root {
   --primary-color: #37b069;
   --secondary-color: #237244;
@@ -7,6 +9,7 @@
   --background-color: #f0f0f0;
 }
 
+/* Estilos generales */
 body, html {
   margin: 0;
   padding: 0;
@@ -21,6 +24,7 @@ body, html {
   flex-direction: column;
 }
 
+/* Estilos de la barra de navegación */
 .top-nav {
   display: flex;
   justify-content: flex-end;
@@ -28,6 +32,7 @@ body, html {
   padding: 1rem 2rem;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
 }
 
 .nav-links {
@@ -49,8 +54,21 @@ body, html {
 
 .menu-toggle {
   display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-color);
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+/* Estilos del contenido principal */
 .content {
   display: flex;
   flex: 1;
@@ -58,6 +76,7 @@ body, html {
   gap: 2rem;
 }
 
+/* Estilos de la barra lateral */
 .sidebar {
   flex: 0 0 325px;
   display: flex;
@@ -116,6 +135,7 @@ body, html {
   transform: scale(1.2);
 }
 
+/* Estilos del contenido principal */
 .main-content {
   flex: 1;
   padding: 2rem;
@@ -137,6 +157,7 @@ h3 {
   font-weight: 400;
 }
 
+/* Estilos de los botones */
 .buttons {
   display: flex;
   gap: 1rem;
@@ -169,6 +190,7 @@ h3 {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* Estilos del contenido de texto */
 .main-content p {
   color: #666;
   line-height: 1.6;
@@ -177,7 +199,6 @@ h3 {
 #experiencia {
   text-align: justify;
 }
-
 
 #habilidades ul {
   list-style-type: none;
@@ -199,50 +220,73 @@ h3 {
   top: -0.2rem;
 }
 
-@media (max-width: 1024px) {
+.content {
+  padding: 1rem;
+}
+
+.sidebar {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.main-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 1200px) {
   .content {
     flex-direction: column;
   }
-  
+
   .sidebar {
     width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin-bottom: 2rem;
   }
 
   .main-content {
     margin-top: 2rem;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 992px) {
+  .content {
+    padding: 1.5rem;
+  }
+
+  .sidebar {
+    max-width: 500px;
+  }
+
+  .main-content {
+    max-width: 700px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
   }
 }
 
 @media (max-width: 768px) {
   .top-nav {
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .menu-toggle {
     display: block;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-
-  .menu-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-color);
-    margin: 5px 0;
-    transition: all 0.3s ease;
   }
 
   .nav-links {
     display: none;
+    width: 100%;
     flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
     background-color: white;
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -256,16 +300,17 @@ h3 {
     margin: 0.5rem 0;
   }
 
-  .content {
-    padding: 1rem;
+  .sidebar {
+    max-width: 400px;
   }
 
-  .sidebar {
-    padding: 1rem;
+  .profile-container {
+    width: 180px;
+    height: 180px;
   }
 
   .main-content {
-    padding: 1rem;
+    max-width: 600px;
   }
 
   h1 {
@@ -285,7 +330,25 @@ h3 {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px), (max-device-width: 1024px) {
+  .top-nav {
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .content {
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+
+
+  .sidebar {
+    max-width: 90%;
+  }
+
   .profile-container {
     width: 150px;
     height: 150px;
@@ -299,6 +362,12 @@ h3 {
     font-size: 0.8rem;
   }
 
+  .main-content {
+    max-width: 90%;
+    margin-top: -30px;
+    padding: 1rem;
+  }
+
   h1 {
     font-size: 2rem;
   }
@@ -307,6 +376,4 @@ h3 {
     font-size: 1rem;
   }
 }
-
-
 
