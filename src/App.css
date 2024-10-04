@@ -345,7 +345,7 @@ h3 {
 
 
   .sidebar {
-    max-width: 94%;
+    max-width: 96%;
   }
 
   .profile-container {
@@ -362,7 +362,7 @@ h3 {
   }
 
   .main-content {
-    max-width: 94%;
+    max-width: 96%;
     margin-top: -30px;
     padding: 1rem;
   }
