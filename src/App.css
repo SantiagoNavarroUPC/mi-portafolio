@@ -332,7 +332,6 @@ h3 {
 
 @media (max-width: 420px), (max-device-width: 1024px) {
   .top-nav {
-    padding: 1rem;
     width: 100%;
     justify-content: space-between;
   }
