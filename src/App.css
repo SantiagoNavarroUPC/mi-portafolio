@@ -82,6 +82,7 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 2rem;
   background: linear-gradient(120deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: white;
@@ -90,8 +91,8 @@ body, html {
 }
 
 .profile-container {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 225px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 1.5rem;
@@ -105,14 +106,14 @@ body, html {
 
 .sidebar h2 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
   color: white;
 }
 
 .portfolio-text {
   margin: 0.5rem 0 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   color: white;
   text-transform: uppercase;
@@ -123,12 +124,15 @@ body, html {
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
+  height: 20%;
 }
 
 .social-icons a {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: transform 0.3s ease;
+  width: 30px;
+
 }
 
 .social-icons a:hover {
@@ -234,7 +238,6 @@ h3 {
   margin-right: auto;
 }
 
-
 @media (max-width: 1200px) {
   .content {
     flex-direction: column;
@@ -331,6 +334,7 @@ h3 {
 }
 
 @media (max-width: 420px), (max-device-width: 1024px) {
+  
   .top-nav {
     width: 100%;
     justify-content: space-between;
