@@ -11,7 +11,7 @@ export default function Experiencias() {
         "El Software para la gestión de pedidos, liderado por Santiago Navarro y respaldado por la Universidad Popular del Cesar, tiene como objetivo gestionar los productos de cualquier sucursal de almacenes de cadena",
       tags: ["PHP", "MySQL"],
       image: "/assets/upondelivery.png",
-      repoLink: "https://github.com/SantiagoNavarroUPC/upon-delivery",
+      repoLink: "https://github.com/SantiagoNavarroUPC/upondelivery",
     },
     {
       title: "GELATO",
