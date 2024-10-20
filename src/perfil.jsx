@@ -13,8 +13,8 @@ export default function Perfil() {
       </div>
       <h2>Santiago Navarro Calderon</h2>
       <a
-        href="/assets/Hoja%20de%20Vida.pdf"
-        download="Hoja_de_Vida.pdf"
+        href="/assets/Hoja_de_vida.pdf"
+        download="Hoja de Vida.pdf"
         className="portfolio-text"
       >
         DESCARGAR HV
