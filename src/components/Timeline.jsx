@@ -31,7 +31,7 @@ export default function Timeline({ items }) {
                 {item.period}
               </p>
               <h3 className="mt-1 text-base font-semibold text-ink-900 dark:text-white">{item.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink-600 dark:text-ink-300">
+              <p className="mt-2 text-justify text-sm leading-relaxed text-ink-600 dark:text-ink-300">
                 {item.description}
               </p>
             </div>

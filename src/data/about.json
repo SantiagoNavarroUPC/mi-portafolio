@@ -1,0 +1,31 @@
+{
+  "paragraphs": [
+    "Soy ingeniero de sistemas con experiencia en el desarrollo de aplicaciones web y móviles, gestión de proyectos y análisis de datos. Me especializo en crear soluciones digitales que mejoren la vida de las personas.",
+    "Manejo bases de datos relacionales y no relacionales, y tengo conocimientos en infraestructura cloud, especialmente en Oracle Cloud Infrastructure (OCI). Me apasiona transformar ideas en productos funcionales y eficientes."
+  ],
+  "facts": [
+    {
+      "icon": "MapPin",
+      "label": "Ubicación",
+      "value": "Valledupar, Colombia"
+    },
+    {
+      "icon": "GraduationCap",
+      "label": "Formación",
+      "value": "Ing. de Sistemas, UPC"
+    },
+    {
+      "icon": "Target",
+      "label": "Enfoque",
+      "value": "Software & datos"
+    },
+    {
+      "icon": "Languages",
+      "label": "Idiomas",
+      "value": [
+        "Español: Nativo",
+        "Inglés: Intermedio (lectura técnica y conversación básica)"
+      ]
+    }
+  ]
+}

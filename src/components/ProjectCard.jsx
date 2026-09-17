@@ -27,7 +27,7 @@ export default function ProjectCard({ project, onOpen, index = 0 }) {
 
         <div className="flex flex-1 flex-col p-5">
           <h3 className="font-display text-lg font-semibold text-ink-900 dark:text-white">{project.title}</h3>
-          <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-600 dark:text-ink-300">
+          <p className="mt-2 flex-1 text-justify text-sm leading-relaxed text-ink-600 dark:text-ink-300">
             {project.description}
           </p>
 

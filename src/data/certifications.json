@@ -1,0 +1,52 @@
+[
+  {
+    "title": "JavaScript Essentials 1",
+    "issuer": "Cisco Networking Academy",
+    "icon": "cisco"
+  },
+  {
+    "title": "Conceptos básicos de redes",
+    "issuer": "Cisco Networking Academy",
+    "date": "14 abr 2023",
+    "icon": "cisco"
+  },
+  {
+    "title": "CCNAv7: Introduction to Networks",
+    "issuer": "Cisco Networking Academy",
+    "date": "12 jun 2023",
+    "icon": "cisco"
+  },
+  {
+    "title": "Introducción a la Ciberseguridad",
+    "issuer": "Cisco Networking Academy",
+    "date": "10 sep 2023",
+    "icon": "cisco"
+  },
+  {
+    "title": "Seguridad de Terminales",
+    "issuer": "Cisco Networking Academy",
+    "date": "27 nov 2023",
+    "icon": "cisco"
+  },
+  {
+    "title": "Gestión de Amenazas Cibernéticas",
+    "issuer": "Cisco Networking Academy",
+    "date": "27 nov 2023",
+    "icon": "cisco"
+  },
+  {
+    "title": "Defensa de la red",
+    "issuer": "Cisco Networking Academy",
+    "icon": "cisco"
+  },
+  {
+    "title": "Oracle Cloud Infrastructure Foundations I",
+    "issuer": "Oracle",
+    "icon": "oracle"
+  },
+  {
+    "title": "Oracle Cloud Infrastructure Foundations II",
+    "issuer": "Oracle",
+    "icon": "oracle"
+  }
+]

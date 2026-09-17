@@ -2,9 +2,10 @@ import React from 'react';
 import Container from '../components/Container';
 import GlassCard from '../components/GlassCard';
 import StatCounter from '../components/StatCounter';
+import projects from '../data/projects.json';
 
 const stats = [
-  { value: 5, label: 'Proyectos desarrollados' },
+  { value: projects.length, label: 'Proyectos desarrollados' },
   { value: 2, label: 'Áreas de especialización' },
   { value: 5, label: 'Años de formación' },
   { value: 9, label: 'Certificaciones' },

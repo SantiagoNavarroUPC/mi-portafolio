@@ -1,0 +1,30 @@
+[
+  {
+    "group": "Desarrollo",
+    "items": [
+      { "label": "HTML", "icon": "SiHtml5" },
+      { "label": "CSS", "icon": "SiCss3" },
+      { "label": "JavaScript", "icon": "SiJavascript" },
+      { "label": "React", "icon": "SiReact" },
+      { "label": "React Native", "icon": "Smartphone" },
+      { "label": "Flutter", "icon": "SiFlutter" }
+    ]
+  },
+  {
+    "group": "Datos",
+    "items": [
+      { "label": "SQL", "icon": "SiMysql" },
+      { "label": "MongoDB", "icon": "SiMongodb" },
+      { "label": "Python", "icon": "SiPython" },
+      { "label": "R", "icon": "LineChart" }
+    ]
+  },
+  {
+    "group": "Gestión",
+    "items": [
+      { "label": "Requerimientos", "icon": "ClipboardList" },
+      { "label": "Metodologías ágiles", "icon": "Repeat2" },
+      { "label": "Firebase", "icon": "SiFirebase" }
+    ]
+  }
+]

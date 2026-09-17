@@ -1,0 +1,55 @@
+[
+  {
+    "title": "MIPRES",
+    "category": "programacion",
+    "categoryLabel": "Programación",
+    "description": "Sistema web para Dusakawi EPSI diseñado bajo arquitectura MVC para la gestión y sincronización de prescripciones MIPRES. Optimizado para procesar altos volúmenes de consultas mediante control de caché, agiliza la validación en tiempo real con PostgreSQL y genera formatos oficiales en PDF para impresión. Esta solución modernizó el flujo operativo y garantizó el cumplimiento normativo médico.",
+    "tags": ["React", "Node.js", "PostgreSQL"],
+    "image": "/assets/mipres.png"
+  },
+  {
+    "title": "Upon Delivery",
+    "category": "programacion",
+    "categoryLabel": "Programación",
+    "description": "Plataforma web enfocada en la gestión centralizada de pedidos, inventario y despachos para cadenas comerciales, desarrollada con el aval de la Universidad Popular del Cesar. Su arquitectura basada en PHP y MySQL asegura consistencia en las transacciones, trazabilidad de stock y una administración ágil de sucursales. Optimizó los tiempos de entrega y mejoró la experiencia de compra final.",
+    "tags": ["PHP", "MySQL"],
+    "image": "/assets/upondelivery.png",
+    "repoLink": "https://github.com/SantiagoNavarroUPC/upondelivery"
+  },
+  {
+    "title": "GELATO",
+    "category": "programacion",
+    "categoryLabel": "Programación",
+    "description": "Aplicación móvil multiplataforma desarrollada con el respaldo de la Universidad Popular del Cesar para optimizar la operación y ventas de la cadena Popsy. Integrada con Flutter y Firebase, permite sincronización en tiempo real de productos, catálogo digital interactivo y gestión fluida de órdenes. La herramienta fortaleció la atención al cliente e incrementó la eficiencia en los puntos de venta.",
+    "tags": ["Flutter", "Firebase"],
+    "image": "/assets/gelato.png",
+    "repoLink": "https://github.com/SantiagoNavarroUPC/gelato"
+  },
+  {
+    "title": "LearnScience",
+    "category": "programacion",
+    "categoryLabel": "Programación",
+    "description": "Aplicación móvil educativa orientada a revolucionar el aprendizaje de ciencias naturales en secundaria a través de actividades lúdicas y recursos interactivos. Construida con Flutter en el cliente y servicios en C# sobre Azure Cloud, ofrece simulaciones dinámicas y seguimiento del progreso del alumno. Fomenta el pensamiento crítico y la autonomía estudiantil dentro y fuera del aula escolar.",
+    "tags": ["Flutter", "C#", "Azure Cloud"],
+    "image": "/assets/learnscience.png",
+    "repoLink": "https://github.com/SantiagoNavarroUPC/learnscience-frontend"
+  },
+  {
+    "title": "Bodega de datos Demo.dwh",
+    "category": "analisis",
+    "categoryLabel": "Análisis de datos",
+    "description": "Solución de Business Intelligence diseñada para el análisis exhaustivo de ventas históricas entre 2008 y 2016 mediante procesos ETL con Talend y Python. El modelo dimensional implementado en Oracle Database consolida métricas clave proyectadas en paneles dinámicos de Power BI. Facilita la identificación de tendencias comerciales y respalda la toma de decisiones estratégicas de negocio.",
+    "tags": ["Python", "PowerBi", "Talend", "Oracle BD"],
+    "image": "/assets/BDdemo.png",
+    "repoLink": "https://github.com/SantiagoNavarroUPC/demo.dwh"
+  },
+  {
+    "title": "Modelo de Calidad del aire",
+    "category": "analisis",
+    "categoryLabel": "Análisis de datos",
+    "description": "Plataforma de analítica predictiva diseñada para evaluar y pronosticar la concentración de contaminantes ambientales mediante Big Data. Combina procesamiento distribuido en Apache Spark con almacenamiento en MongoDB y redes neuronales en TensorFlow para modelar el comportamiento del material particulado. Provee un panel web interactivo que facilita alertas oportunas ante riesgos ambientales.",
+    "tags": ["Python", "Spark", "TensorFlow", "Mongo DB", "JavaScript"],
+    "image": "/assets/aire.png",
+    "repoLink": "https://github.com/SantiagoNavarroUPC/calidad-aire"
+  }
+]

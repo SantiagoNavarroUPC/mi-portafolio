@@ -1,0 +1,27 @@
+[
+  {
+    "href": "https://github.com/SantiagoNavarroUPC",
+    "label": "GitHub",
+    "icon": "FaGithub"
+  },
+  {
+    "href": "https://www.facebook.com/santiago.navarrocalderon",
+    "label": "Facebook",
+    "icon": "FaFacebookF"
+  },
+  {
+    "href": "https://www.linkedin.com/in/santiago-navarro-calderón-b58b3b2ba",
+    "label": "LinkedIn",
+    "icon": "FaLinkedinIn"
+  },
+  {
+    "href": "https://www.instagram.com/santiagonavarro00",
+    "label": "Instagram",
+    "icon": "FaInstagram"
+  },
+  {
+    "href": "https://mail.google.com/mail/?view=cm&fs=1&to=santiago12.na@gmail.com&su=Contact%20Me&body=Hola,%20me%20gustaría%20contactarte.",
+    "label": "Gmail",
+    "icon": "FaGoogle"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "period": "2020 — 2025",
+    "title": "Ingeniería en Sistemas",
+    "logo": "/assets/upc.png",
+    "logoAlt": "Universidad Popular del Cesar logo",
+    "description": "Cursé la carrera de Ingeniería en Sistemas en la Universidad Popular del Cesar en Colombia, donde adquirí conceptos y herramientas relacionadas con el desarrollo de software y la tecnología."
+  },
+  {
+    "period": "2022 — 2023",
+    "title": "Técnico, SENA",
+    "logo": "/assets/sena.png",
+    "logoAlt": "SENA logo",
+    "description": "Realicé dos programas técnicos en el Centro de Aprendizaje del SENA, centrado en el sector de la salud, donde adquirí habilidades en primeros auxilios, instrumentación y atención al cliente."
+  }
+]
